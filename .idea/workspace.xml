@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94bbb8ba-7b0a-44df-ae75-087ee21c2137" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/homepage-eureka/src/main/java/com/imooc/homepage/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-zuul/src/main/java/com/imooc/homepage/fillter/AccessLogFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-zuul/src/main/java/com/imooc/homepage/fillter/PreRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/homepage-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/homepage-zuul/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,41 +25,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/homepage-zuul/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="506">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homepage-eureka/pom.xml">
+        <entry file="file://$PROJECT_DIR$/homepage-zuul/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/homepage-eureka/src/main/java/com/imooc/homepage/EurekaApplication.java">
+        <entry file="file://$PROJECT_DIR$/homepage-zuul/src/main/java/com/imooc/homepage/fillter/AccessLogFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="713">
+              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homepage-eureka/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="647">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -76,6 +88,11 @@
         <option value="$PROJECT_DIR$/homepage-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/homepage-eureka/src/main/java/com/imooc/homepage/EurekaApplication.java" />
         <option value="$PROJECT_DIR$/homepage-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/homepage-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/homepage-zuul/src/main/java/com/imooc/homepage/ZuulGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/homepage-zuul/src/main/java/com/imooc/homepage/fillter/PreRequestFilter.java" />
+        <option value="$PROJECT_DIR$/homepage-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/homepage-zuul/src/main/java/com/imooc/homepage/fillter/AccessLogFilter.java" />
       </list>
     </option>
   </component>
@@ -135,14 +152,69 @@
               <item name="homepage-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imooc-homepage-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="imooc-homepage-spring-cloud" type="462c0819:PsiDirectoryNode" />
               <item name="homepage-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-homepage-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-homepage-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage-zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-homepage-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-homepage-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-homepage-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-homepage-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-homepage-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-homepage-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-homepage-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-homepage-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-homepage-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-homepage-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
+              <item name="fillter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc-homepage-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc-homepage-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -153,6 +225,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-mail" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunDashboard">
@@ -191,14 +267,13 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1433902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32962137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -206,6 +281,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -214,13 +290,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homepage-eureka/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -230,18 +299,95 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homepage-eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="374">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage-zuul/src/main/java/com/imooc/homepage/fillter/PreRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.0.RELEASE/spring-cloud-netflix-zuul-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/support/FilterConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="112" column="28" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homepage-eureka/src/main/java/com/imooc/homepage/EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="286">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage-zuul/src/main/java/com/imooc/homepage/ZuulGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.18/lombok-1.16.18-sources.jar!/lombok/extern/slf4j/Slf4j.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <folding>
+            <element signature="e#0#2656#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage-zuul/src/main/java/com/imooc/homepage/fillter/AccessLogFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
           </folding>
         </state>
       </provider>
